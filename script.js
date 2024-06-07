@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Функція для отримання обмінних курсів з API
   function fetchExchangeRates() {
     // Виконує запит до API
-    fetch(apiURL)
+    fetch(apiURL)// повертає проміс 
       // Обробляє отриману відповідь, перетворюючи її у JSON об'єкт
       .then(response => response.json()) // then(response) - отримання результату виконання
       // Обробляє результат перетворення JSON у вигляді масиву даних
